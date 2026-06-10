@@ -1,0 +1,652 @@
+/* XL Device :1200px. */
+
+@media screen and (max-width: 1620px) {
+
+
+}
+
+@media screen and (max-width: 1449px) {
+
+    .hero__image--slider .owl-dots {
+        position: relative;
+        left: 0;
+        transform: translateY(21px);
+        flex-direction: row;
+    }
+
+
+}
+
+
+/* LG Device :992px. */
+
+@media screen and (max-width: 1199px) {
+
+    .section__caption {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .header__top--menu ul li a {
+        font-size: 16px;
+    }
+
+    .header__logo a {
+        width: 177px;
+        height: 126px;
+    }
+
+    .header__main--menu {
+        padding: 15px 25px;
+    }
+
+    .header__main--menu ul {
+        gap: 38px;
+    }
+
+    .header__main--menu li a {
+        font-size: 18px;
+    }
+
+    .hero__area {
+        padding: 230px 0 100px;
+    }
+
+    .hero__image {
+        height: 497px;
+    }
+
+    .hero__area--right {
+        padding-top: 282px;
+    }
+
+    .hero__area--right h1 {
+        font-size: 54px;
+    }
+
+    .hero__area--right p {
+        font-size: 16px;
+    }
+
+    .primary__btn {
+        font-size: 16px;
+    }
+
+    .about__area {
+        padding: 65px 0 110px;
+    }
+
+    .about__card-1 .about__card--image {
+        height: 400px;
+    }
+
+    .about__card-2 .about__card--image {
+        height: 540px;
+    }
+
+    .about__overview--details h3 {
+        font-size: 70px;
+    }
+
+    .about__overview--details span {
+        font-size: 18px;
+    }
+
+    .about__overview {
+        margin-top: 50px;
+        padding: 0 25px;
+    }
+
+    .services__card--image {
+        height: 250px;
+    }
+
+    .services__card-tag {
+        max-width: 390px;
+    }
+
+    .services__card-tag span {
+        font-size: 26px;
+    }
+
+    .services__card--content ul {
+        padding-left: 55px;
+    }
+
+    .services__card--content ul li {
+        font-size: 18px;
+    }
+
+    .featured__area {
+        padding: 115px 0 120px;
+    }
+
+    .featured__card--image {
+        height: 440px;
+    }
+
+    .featured__card--content h3 {
+        font-size: 28px;
+    }
+
+    .testiomonial__card {
+        padding: 35px 20px 36px 28px;
+    }
+
+    .testiomonial__card--avatar {
+        width: 86px;
+        height: 86px;
+    }
+
+    .reting {
+        margin: 8px 0 15px;
+    }
+
+    .event__area {
+        padding: 95px 0 48px;
+    }
+
+    .event__card--image {
+        height: 280px;
+    }
+
+    .event__card--content h4 {
+        font-size: 20px;
+    }
+
+    .event__card--content p {
+        font-size: 15px;
+        margin: 14px 0 30px;
+    }
+
+    .read__more--btn {
+        gap: 15px;
+        font-size: 16px;
+    }
+
+    .newsletter__area {
+        padding: 86px 0 106px;
+    }
+
+    .newsletter__form form input {
+        font-size: 16px;
+    }
+
+    .newsletter__form form .submit__btn {
+        width: 40px;
+        height: 35px;
+    }
+
+    .newsletter__permissions-checkbox {
+        gap: 11px;
+    }
+
+    .footer__area {
+        padding: 70px 0 40px;
+    }
+
+    .footer__logo a {
+        width: 136px;
+        height: 140px;
+    }
+
+    .social__links ul li a {
+        width: 44px;
+        height: 44px;
+        font-size: 17px;
+    }
+
+    .footer__item h5 {
+        font-size: 18px;
+    }
+
+    .footer__menu li a {
+        font-size: 16px;
+    }
+
+    .footer__menu li a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer__menu li a h6 {
+        font-size: 18px;
+    }
+
+    .footer__menu li a span {
+        font-size: 14px;
+    }
+
+}
+
+
+/* MD Device :768px. */
+
+@media screen and (max-width: 991px) {
+
+    .section__caption {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .primary__btn {
+        font-size: 15px;
+        padding: 13px 24px;
+    }
+    
+
+    .header__top--menu ul li a {
+        font-size: 14px;
+    }
+
+    .header__top--menu li a img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .header__main--menu ul{
+        display: none;
+    }
+
+    .header__main--menu {
+        padding: 0;
+    }
+
+    .menu_trigger {
+        display: flex;
+    }
+
+    .hero__area {
+        padding: 195px 0 80px;
+    }
+
+    .hero__image {
+        height: 400px;
+        border-radius: 8px;
+    }
+
+    .hero__area--right {
+        padding-top: 270px;
+    }
+
+    .hero__area--right h1 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        font-size: 50px;
+        padding: 26px 10px 30px 30px;
+    }
+
+    .about__area {
+        padding: 46px 0 85px;
+    }
+
+    .about__card-1 .about__card--image {
+        max-width: 100%;
+        height: 372px;
+        border-radius: 8px;
+    }
+
+    .about__card-2 .about__card--image {
+        max-width: 100%;
+        height: 384px;
+        border-radius: 8px;
+    }
+
+    .about__overview {
+        margin-top: 0;
+        padding: 0 25px;
+        border-radius: 8px;
+    }
+
+    .about__overview--details {
+        padding: 47px 28px 52px;
+    }
+
+    .about__overview--details h3 {
+        font-size: 50px;
+    }
+
+    .about__overview--details span {
+        font-size: 16px;
+    }
+
+    .services__card--image {
+        height: 215px;
+    }
+
+    .services__card-tag {
+        max-width: 338px;
+        padding: 7px 7px 7px 30px;
+    }
+
+    .services__card-tag span {
+        font-size: 21px;
+    }
+
+    .services__card--content ul {
+        padding-left: 40px;
+    }
+
+    .services__card--content ul li {
+        font-size: 16px;
+    }
+
+    .featured__area {
+        padding: 95px 0 90px;
+    }
+
+    .featured__wraper {
+        margin-top: 38px;
+    }
+
+    .featured__card--image {
+        height: 362px;
+    }
+
+    .featured__card--content h3 {
+        font-size: 24px;
+    }
+
+    .featured__btn {
+        width: 30px;
+        height: 15px;
+    }
+
+    .event__area {
+        padding: 70px 0 48px;
+    }
+
+    .event__card--wraper {
+        margin-top: 58px;
+    }
+
+    .event__card--image {
+        height: 245px;
+    }
+
+    .event__card--content h4 {
+        font-size: 18px;
+    }
+
+    .event__card--content p {
+        font-size: 14px;
+        margin: 14px 0 20px;
+    }
+
+    .read__more--btn {
+        font-size: 15px;
+    }
+
+    .event__card--wraper .owl-dots {
+        margin-top: 50px;
+    }
+
+    .newsletter__area {
+        padding: 60px 0 56px;
+    }
+
+    .newsletter__left h2{
+        font-size: 40px;
+    }
+
+    .newsletter__form {
+        margin: auto;
+    }
+    
+    .footer__area {
+        padding: 45px 0 30px;
+    }
+
+    .social__links {
+        margin-top: 12px;
+    }
+
+    .social__links ul li a {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .footer__item h5 {
+        font-size: 17px;
+    }
+
+    .footer__menu li a {
+        font-size: 15px;
+    }
+
+    .footer__menu li a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer__menu li a h6 {
+        font-size: 17px;
+    }
+
+}
+
+
+/* SM Small Device :320px. */
+
+@media screen and (max-width: 767px) {
+
+    .section__caption {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .header__logo a {
+        width: 128px;
+        height: 100px;
+    }
+
+    .hero__area {
+        padding: 168px 0 60px;
+    }
+
+    .hero__image {
+        height: 272px;
+        border-radius: 8px;
+    }
+
+    .hero__image--slider .owl-dots {
+        justify-content: center;
+        gap: 13px;
+    }
+
+    .hero__area--right {
+        padding-top: 260px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero__area--right h1 {
+        font-size: 33px;
+        border-radius: 8px;
+        padding: 26px 10px 30px 4px;
+    }
+
+    .hero__area--right p {
+        font-size: 14px;
+    }
+
+    .primary__btn {
+        font-size: 14px;
+        padding: 12px 19px;
+        gap: 8px;
+    }
+
+    .hero__image--slider .owl-dots .owl-dot button {
+        font-size: 14px;
+    }
+
+    .hero__image--slider .owl-dots .owl-dot.active button {
+        font-size: 14px;
+    }
+
+    .about__area {
+        padding: 46px 0 60px;
+    }
+
+    .about__card {
+        gap: 32px;
+    }
+
+    .about__card-1 .about__card--image {
+        height: 220px;
+    }
+
+    .about__card-2 .about__card--image {
+        height: 240px;
+    }
+
+    .about__overview {
+        padding: 20px 10px;
+    }
+
+    .about__overview--details {
+        padding: 29px 13px 30px;
+    }
+
+    .about__overview--details h3 {
+        font-size: 28px;
+    }
+
+    .about__overview--details span {
+        font-size: 14px;
+    }
+
+    .services__card {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .services__card--image {
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .services__card-tag {
+        max-width: 260px;
+        padding: 7px 7px 7px 20px;
+    }
+
+    .services__card-tag span {
+        font-size: 17px;
+    }
+
+    .services__card--content ul {
+        padding-left: 0;
+    }
+
+    .services__card--content ul li {
+        font-size: 14px;
+    }
+
+    .services__card--content ul li img {
+        width: 22px;
+    }
+
+    .services__card:nth-child(even) {
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+
+    .featured__area {
+        padding: 73px 0 62px;
+    }
+
+    .testiomonial__card {
+        border-radius: 8px;
+    }
+
+    .testiomonial__card--avatar {
+        width: 76px;
+        height: 76px;
+    }
+
+    .testiomonial__card--content p {
+        font-size: 13px;
+    }
+
+    .event__card--wraper {
+        margin-top: 43px;
+    }
+
+    .event__card--image {
+        border-radius: 8px;
+        height: 208px;
+        overflow: hidden;
+    }
+
+    .newsletter__area {
+        padding: 41px 0 43px;
+    }
+
+    .newsletter__left h2 {
+        font-size: 30px;
+    }
+
+    .newsletter__form form input {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+
+    .newsletter__form form .submit__btn {
+        width: 32px;
+        height: 27px;
+        right: -1px;
+        top: 20px;
+    }
+
+    .newsletter__permissions-checkbox .privacy-text {
+        font-size: 13px;
+    }
+
+    /* .newsletter-checkbox-wrapper {
+        width: 16px;
+        height: 16px;
+    }
+
+    .checkmark {
+        width: 16px;
+        height: 16px;
+    } */
+
+
+
+
+}
+
+
+/* SM Small Device :550px. */
+
+@media (min-width: 575px) and (max-width: 767px){
+
+    
+}
+
+
+
+
+
+
