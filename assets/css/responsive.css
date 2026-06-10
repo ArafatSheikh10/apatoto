@@ -267,6 +267,10 @@
         display: none;
     }
 
+    .mobail__sidebar .header__main--menu ul{
+        display: flex;
+    }
+
     .header__main--menu {
         padding: 0;
     }
@@ -462,6 +466,19 @@
     .header__logo a {
         width: 128px;
         height: 100px;
+    }
+
+    .menu_trigger {
+        width: 35px;
+        height: 35px;
+    }
+
+    .menu_trigger span{
+        width: 15px;
+    }
+      
+    .menu_trigger span:nth-child(2){
+        width: 20px;
     }
 
     .hero__area {

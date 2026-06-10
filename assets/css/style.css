@@ -125,6 +125,7 @@ p{
 /* HEADER AREA START */
 
 .header__area{
+  overflow: hidden;
   position: absolute;
   left: 50%;
   top: 0;
@@ -180,11 +181,23 @@ p{
 }
 
 .header__main--menu {
+  position: relative;
   padding: 12px 30px;
-  background-color: #0000006c;
   display: flex;
   align-items: center;
   gap: 20px;
+  z-index: 1;
+}
+
+.header__main--menu::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400%;
+  height: 100%;
+  background-color: #00000081;
+  z-index: -1;
 }
 
 .header__main--menu ul{
@@ -221,15 +234,75 @@ p{
 }
 
 .menu_trigger span{
-  width: 24px;
+  width: 20px;
   height: 2px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 4px;
 }
 
 .menu_trigger span:nth-child(2){
-  width: 20px;
+  width: 25px;
 }
+
+.mobail__sidebar{
+  background-color: #000;
+}
+
+.mobail__sidebar .offcanvas-header .header__logo a {
+  width: 128px;
+  height: 100px;
+}
+
+.mobail__sidebar  .header__top--menu ul{
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.mobail__sidebar  .header__top--menu{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #91D301;
+}
+
+.mobail__sidebar  .header__top--menu ul li a{
+  font-size: 12px;
+}
+
+.mobail__sidebar  .header__top--menu ul li a img{
+  width: 15px;
+}
+
+.mobail__sidebar .header__main--menu{
+  padding: 20px 0;
+}
+
+.mobail__sidebar .header__main--menu ul{
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.mobail__sidebar .header__main--menu ul li a{
+  font-size: 14px;
+}
+
+.mobail__sidebar .header__main--menu::after{
+  display: none;
+}
+
+.btn-close {
+  background-color: #91D301;
+  opacity: 1;                
+  border-radius: 4px;         
+  padding: 14px;            
+  flex-shrink: 0;
+}
+
+.btn-close:hover {
+  background-color: #000; 
+  opacity: 1;
+}
+
 
 
 /* HEADER AREA END */
