@@ -22,7 +22,6 @@
 
 
         // Hero Slider
-
         $('.hero__image--slider').owlCarousel({
             loop: true,
             items: 1,

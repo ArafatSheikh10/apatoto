@@ -70,6 +70,7 @@
 
     .hero__area--right {
         padding-top: 282px;
+        padding-right: 50px;
     }
 
     .hero__area--right h1 {
@@ -499,10 +500,11 @@
         padding-top: 260px;
         text-align: center;
         align-items: center;
+        padding-right: 0;
     }
 
     .hero__area--right h1 {
-        font-size: 33px;
+        font-size: 37px;
         border-radius: 8px;
         padding: 26px 10px 30px 4px;
     }
@@ -539,6 +541,10 @@
 
     .about__card-2 .about__card--image {
         height: 240px;
+    }
+
+    .about__card--content {
+        padding-right: 0;
     }
 
     .about__overview {
@@ -632,6 +638,10 @@
         overflow: hidden;
     }
 
+    .event__date {
+        font-size: 14px;
+    }
+
     .newsletter__area {
         padding: 41px 0 43px;
     }
@@ -667,7 +677,30 @@
 /* SM Small Device :550px. */
 
 @media (min-width: 575px) and (max-width: 767px){
+
+    .hero__area--right h1 {
+        font-size: 48px;
+    }
+
+    .hero__image {
+        height: 340px;
+    }
     
+    .about__card-1 .about__card--image {
+        height: 300px;
+    }
+
+    .about__card-2 .about__card--image {
+        height: 320px;
+    }
+
+    .services__card--image {
+        height: 275px;
+    }
+
+    .event__card--image {
+        height: 275px;
+    }
 }
 
 
