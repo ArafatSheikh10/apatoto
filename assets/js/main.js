@@ -36,6 +36,11 @@
         });
 
 
+        // Counter Up Activation
+        $('.counter').counterUp({
+            delay: 10,
+            time: 2000
+        });  
             
       
         // Featured Slider 

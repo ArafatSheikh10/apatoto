@@ -97,7 +97,15 @@
         height: 540px;
     }
 
+    .about__overview--details {
+        width: 290px;
+    }
+
     .about__overview--details h3 {
+        font-size: 70px;
+    }
+
+    .about__overview--details h3 span{
         font-size: 70px;
     }
 
@@ -324,10 +332,18 @@
     }
 
     .about__overview--details {
+        width: 240px;
+    }
+
+    .about__overview--details {
         padding: 47px 28px 52px;
     }
 
     .about__overview--details h3 {
+        font-size: 50px;
+    }
+
+    .about__overview--details h3 span{
         font-size: 50px;
     }
 
@@ -548,7 +564,11 @@
     }
 
     .about__overview {
-        padding: 20px 10px;
+        padding: 0 10px;
+    }
+
+    .about__overview--details {
+        width: 144px;
     }
 
     .about__overview--details {
@@ -556,6 +576,10 @@
     }
 
     .about__overview--details h3 {
+        font-size: 28px;
+    }
+
+    .about__overview--details h3 span{
         font-size: 28px;
     }
 
@@ -692,6 +716,10 @@
 
     .about__card-2 .about__card--image {
         height: 320px;
+    }
+
+    .about__overview--details {
+        width: 180px;
     }
 
     .services__card--image {

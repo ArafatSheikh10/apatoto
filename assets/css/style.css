@@ -454,6 +454,7 @@ p{
 }
 
 .about__overview--details{
+  width: 332px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -465,6 +466,10 @@ p{
 }
 
 .about__overview--details h3{
+  font-size: 100px;
+}
+
+.about__overview--details h3 span{
   font-size: 100px;
 }
 
