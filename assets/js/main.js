@@ -43,10 +43,7 @@
         $('.featured__wraper').owlCarousel({
             loop:               true,
             margin:             20,
-            dots:               false,
-            dotsEach:           true,
             autoplay:           true,
-            autoWidth:          true,
             autoplayTimeout:    2000,
             smartSpeed:         800,
             autoplayHoverPause: true,
@@ -54,21 +51,37 @@
             responsive: {
               0: {
                 items:        1,
-                stagePadding: 50,   
+                stagePadding: 60,   
               },
-              700: {
+              767: {
                 items:        2,
                 stagePadding: 60,
               },
-              1000: {
+              992: {
                 items:        2,
-                stagePadding: 400,
+                stagePadding: 60,
+              },
+              992: {
+                items:        2,
+                stagePadding: 80,
+              },
+              1199: {
+                items:        2,
+                stagePadding: 100,
+              },
+              1449: {
+                items:        2,
+                stagePadding: 200,
+              },
+              1620: {
+                items:        2,
+                stagePadding: 300,
               },
             },
         });
 
 
-        
+
 
         // Testiomonial Slider
 
